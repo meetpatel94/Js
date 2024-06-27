@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="4_2_Array.js"></script>
+  </head>
+  <body>
+    <script>
+      //   let a = ["meet", 25, true, "hi"];
+      //   a[1] = 20;
+      //   document.write(a[1]);
+      // let a = ["meet", "jay", "mehul"];
+      //   for (b = 0; b < 4; b++) {
+      //     document.write(a[b]);
+      //   }
+      // for (let i of a) {
+      //   document.write(i.toUpperCase());
+      // }
+      let marks = [85, 97, 44, 37, 76, 60];
+      let sum = 0;
+      for (let val of marks) {
+        sum = sum + val;
+      }
+      let avg = sum / marks.length;
+      document.write(avg);
+    </script>
+  </body>
+</html>
