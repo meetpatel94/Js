@@ -10,9 +10,10 @@
 // obj2.__proto__ = obj1;
 
 //===========================================>>second<<=============================================//
+
+
 class cars {
-    sportscar(fastest) {
-        this.speed = fastest;
+    sportscar() {
         console.log("very fast");
     }
     midspeedcar() {
@@ -24,8 +25,12 @@ class cars {
     }
 }
 let lamborgini = new cars()
-lamborgini.sportscar("300km\s");
+lamborgini.sportscar();
 
-let buggati = new cars()
-buggati.superiercar("450km\s");
+// let buggati = new cars()
+// buggati.superiercar("450km\s");
+
+
+
+
 

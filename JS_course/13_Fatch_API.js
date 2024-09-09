@@ -1,4 +1,4 @@
-// const URL = "https://cat-fact.herokuapp.com/facts";
+const URL = "";
 
 // let promise = fetch(URL);
 // console.log(promise);

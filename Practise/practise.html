@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border: 2px solid #111111;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">hi</div>
+        <div class="box2">s</div>
+        <div class="box3">g</div>
+        <div class="box4">bv</div>
+    </section>
+    
+<script>
+
+    let boxes = document.querySelector('.box')
+    let boxes2 = document.querySelector('.box2')
+    let boxes3 = document.querySelector('.box3')
+    let boxes4 = document.querySelector('.box4')
+    
+    
+    let min = 000000
+    let max = 111111
+    
+    let bcolor = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    
+    let b2color = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    
+    let b3color = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    
+    let b4color = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    
+    
+    boxes.style.backgroundColor = "#" + bcolor;
+    console.log("firstbox:" + "#" + bcolor)
+    boxes2.style.backgroundColor = "#" + bcolor;
+    console.log("secondbox:" + "#" + b2color)
+    boxes3.style.backgroundColor = "#" + b3color;
+    console.log("thirdbox:" + "#" + bcolor)
+    boxes4.style.backgroundColor = "#" + b4color;
+    console.log("fourthbox:" + "#" + bcolor)
+
+</script>
+</body>
+</html>
