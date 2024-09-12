@@ -1,7 +1,7 @@
 //Two Types:-
 //---->  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const a = "Hi"
 const score = 100

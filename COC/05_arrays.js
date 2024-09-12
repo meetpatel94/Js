@@ -9,7 +9,7 @@ let noobGames = ["DRDRIVING", "FF", "COC"]
 const games = [...proGames, ...noobGames]     //Spread
 console.log(games)                               //operator
 
-// // Flat Array
+// // Netsed Array --->use flat
 // let arr = [1, 2, [3], 4, 5, [6, 7, 8], 9, [10, 11, [12, 13, 14], 15], 16]
 // // const realArr = arr.flat(1)
 // const realArr = arr.flat(Infinity)
