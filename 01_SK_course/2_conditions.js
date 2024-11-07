@@ -25,6 +25,24 @@
 //     console.log("Your Are Failed");
 // }
 //----->Ternary Operator<--------//
-let a = 2
+// let a = 2
 
-a >= 18 ? console.log("true") : console.log("false");
+// a >= 18 ? console.log("true") : console.log("false");
+
+//----->Switch case<------------//
+let Enroll_num = 127
+
+switch (Enroll_num) {
+    case 127:
+        console.log("Meet")
+        break;
+    case 57:
+        console.log("Mehul")
+        break;
+    case 62:
+        console.log("Aryan")
+        break;
+    default:
+        console.log("no person")
+        break;
+}

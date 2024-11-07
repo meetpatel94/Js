@@ -1,10 +1,12 @@
 // const symbol = Symbol("ACE")
 
-// const obj = {
-//     name: "jay",
-//     Id: 12,
-//     // [symbol]: "Diamond"
-// }
+const obj = {
+    //     entries
+    //  key:   value,
+    name: "jay",
+    Id: 12,
+    //[symbol]:"Diamond"
+}
 // console.log(obj[symbol])
 
 // //----> Freeze object
