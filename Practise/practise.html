@@ -8,13 +8,13 @@
         div{
             height: 100px;
             width: 100px;
-            border: 2px solid #111111;
+            border: 2px solid #111;
         }
     </style>
 </head>
 <body>
     <section>
-        <div class="box">hi</div>
+        <div class="box1">hi</div>
         <div class="box2">s</div>
         <div class="box3">g</div>
         <div class="box4">bv</div>
@@ -22,32 +22,32 @@
     
 <script>
 
-    let boxes = document.querySelector('.box')
+    let boxes1 = document.querySelector('.box1')
     let boxes2 = document.querySelector('.box2')
     let boxes3 = document.querySelector('.box3')
     let boxes4 = document.querySelector('.box4')
     
     
-    let min = 000000
-    let max = 111111
+    let min = 000;
+    let max = 111;
     
-    let bcolor = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    let b1color = Math.floor((Math.random() * (max - min + 100)) + min) + 100
     
-    let b2color = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    let b2color = Math.floor((Math.random() * (max - min + 100)) + min) + 100
     
-    let b3color = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    let b3color = Math.floor((Math.random() * (max - min + 100)) + min) + 100
     
-    let b4color = Math.floor((Math.random() * (max - min + 1000000)) + min)
+    let b4color = Math.floor((Math.random() * (max - min + 100)) + min) + 100
     
     
-    boxes.style.backgroundColor = "#" + bcolor;
-    console.log("firstbox:" + "#" + bcolor)
-    boxes2.style.backgroundColor = "#" + bcolor;
+    boxes1.style.backgroundColor = "#" + b1color;
+    console.log("firstbox:" + "#" + b1color)
+    boxes2.style.backgroundColor = "#" + b2color;
     console.log("secondbox:" + "#" + b2color)
     boxes3.style.backgroundColor = "#" + b3color;
-    console.log("thirdbox:" + "#" + bcolor)
+    console.log("thirdbox:" + "#" + b3color)
     boxes4.style.backgroundColor = "#" + b4color;
-    console.log("fourthbox:" + "#" + bcolor)
+    console.log("fourthbox:" + "#" + b4color)
 
 </script>
 </body>

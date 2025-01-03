@@ -5,9 +5,9 @@ class parent {
     }
 }
 class child extends parent {
-    // work() {
-    //     console.log("do not nothing");
-    // }
+    // work() {                               // again in child class 
+    //     console.log("do not nothing");         // function crate as same parent class
+    // }                                              // then overlappe fun.
     cars() {
         console.log("Cars");
     }

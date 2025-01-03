@@ -11,13 +11,12 @@ let a = ["HII", "HMM", "WHY", "GN", "BY"];
 // a.shift();            <!--first pop--->
 // console.log(a);
 // console.log(a.slice(1, 3)); //cut or slice
-a.splice(1, 2, 101, 102);
+// a.splice(1, 2, 101, 102);
 // a.splice(1, 2);
-console.log(a); //cut or splice
+// console.log(a); //cut or splice
 //=======================================================================================//
 let q = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
 
-// q.shift();
 // q.push("amazon");
 // q.splice(2, 1);
 // console.log(q);
